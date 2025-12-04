@@ -42,15 +42,15 @@ const Navbar = () => {
                         <div className="flex-shrink-0 flex items-center">
                             <Link to="/" className="flex items-center gap-2 group">
                                 {/* Logo Icon Placeholder */}
-                                <div className="w-10 h-10 bg-[var(--primary)] rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-[var(--accent-blue)] transition-colors">
-                                    IA
+                                <div className="w-13 h-11 bg-[var(--primary)] rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-[var(--accent-blue)] transition-colors">
+                                    AVM
                                 </div>
                                 <div className="flex flex-col">
                                     <span className="text-2xl font-bold text-[var(--primary)] leading-none">
-                                        Immigration
+                                        Travel
                                     </span>
                                     <span className="text-sm font-bold text-[var(--accent-blue)] tracking-widest uppercase leading-none">
-                                        Agency
+                                        Pvt(ltd)
                                     </span>
                                 </div>
                             </Link>
