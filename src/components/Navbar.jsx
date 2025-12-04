@@ -91,6 +91,8 @@ const Navbar = () => {
 
 
                             <Link to="/blog" onClick={() => setIsOpen(false)} className="block px-4 py-3 text-[var(--text-main)] hover:bg-gray-50 hover:text-[var(--accent-blue)] rounded-md font-medium border-b border-gray-100">Blog</Link>
+                            <Link to="/our-process" onClick={() => setIsOpen(false)} className="block px-4 py-3 text-[var(--text-main)] hover:bg-gray-50 hover:text-[var(--accent-blue)] rounded-md font-medium border-b border-gray-100">Our Process</Link>
+
                             <Link to="/testimonials" onClick={() => setIsOpen(false)} className="block px-4 py-3 text-[var(--text-main)] hover:bg-gray-50 hover:text-[var(--accent-blue)] rounded-md font-medium border-b border-gray-100">Testimonials</Link>
                             <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-4 py-3 mt-4 text-center bg-[var(--accent-blue)] text-white rounded-md font-bold hover:bg-blue-600">Contact Us</Link>
                         </div>
