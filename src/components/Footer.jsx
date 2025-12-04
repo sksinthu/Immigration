@@ -76,13 +76,13 @@ const Footer = () => {
                                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--accent-blue)] transition-colors">
                                     <Phone className="text-[var(--accent-blue)] group-hover:text-white transition-colors" size={20} />
                                 </div>
-                                <span className="text-gray-400 group-hover:text-white transition-colors">+94 123 456 789</span>
+                                <span className="text-gray-400 group-hover:text-white transition-colors">+94 760 131 613</span>
                             </li>
                             <li className="flex items-center gap-4 group">
                                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--accent-blue)] transition-colors">
                                     <Mail className="text-[var(--accent-blue)] group-hover:text-white transition-colors" size={20} />
                                 </div>
-                                <span className="text-gray-400 group-hover:text-white transition-colors">info@immigrationagency.lk</span>
+                                <span className="text-gray-400 group-hover:text-white transition-colors">avmtravels16@gmail.com</span>
                             </li>
                         </ul>
 

@@ -39,7 +39,7 @@ const countries = [
     {
         name: "Belgium",
         cities: "Antwerp, Brussels, Bruges, Ghent, Charleroi, Liège",
-        image: "https://images.unsplash.com/photo-1559564484-e48bf8aebd60?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80"
     },
     {
         name: "Cyprus",
@@ -89,22 +89,22 @@ const countries = [
     {
         name: "Malta",
         cities: "Valletta, Birgu, Senglea, Sliema, Saint Paul's Bay, Saint Julian's",
-        image: "https://images.unsplash.com/photo-1581104723194-1b77e8b8c8b5?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?w=800&q=80"
     },
     {
         name: "Poland",
         cities: "Warsaw, Kraków, Łódź, Wrocław, Poznań, Gdańsk, Szczecin",
-        image: "https://images.unsplash.com/photo-1529260830199-42c42dda5f3d?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80"
     },
     {
         name: "Portugal",
         cities: "Lisbon, Porto, Vila Nova de Gaia, Braga, Amadora, Queluz, Funchal",
-        image: "https://images.unsplash.com/photo-1555881400-74d7acaacd81?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?w=800&q=80"
     },
     {
         name: "Spain",
         cities: "Madrid, Barcelona, Seville, Granada, Valencia, Bilbao, Salamanca",
-        image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80"
     },
     {
         name: "Slovenia",

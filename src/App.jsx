@@ -10,6 +10,8 @@ import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import Testimonials from './components/Testimonials';
 import OurProcess from './components/OurProcess';
+import FloatingButtons from './components/FloatingButtons';
+import FreeAssessment from './components/FreeAssessment';
 import { Link } from "react-router-dom";
 
 // Scroll to top on route change
@@ -35,11 +37,11 @@ const HomePage = () => (
         <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
           Take the first step towards your dream life abroad. Get a free assessment from our certified immigration experts today.
         </p>
-       <Link to="/contact">
-  <button className="bg-[var(--accent-blue)] hover:bg-blue-600 text-white px-12 py-5 rounded-lg font-bold text-xl transition-all shadow-xl shadow-blue-500/40 transform hover:-translate-y-1">
-    Free Online Assessment
-  </button>
-</Link>
+        <Link to="/contact">
+          <button className="bg-[var(--accent-blue)] hover:bg-blue-600 text-white px-12 py-5 rounded-lg font-bold text-xl transition-all shadow-xl shadow-blue-500/40 transform hover:-translate-y-1">
+            Free Online Assessment
+          </button>
+        </Link>
       </div>
     </section>
   </>
@@ -54,7 +56,7 @@ const AboutPage = () => (
 
 const ServicesPage = () => (
   <div className="pt-10">
-   
+
     <Services />
   </div>
 );
@@ -116,11 +118,12 @@ function App() {
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/our-process" element={<OurProcess />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/contact" element={<FreeAssessment />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
         </main>
         <Footer />
+        <FloatingButtons whatsappNumber="+94760131613" />
       </div>
     </Router>
   );
