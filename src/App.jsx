@@ -10,6 +10,7 @@ import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import Testimonials from './components/Testimonials';
 import OurProcess from './components/OurProcess';
+import { Link } from "react-router-dom";
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -34,9 +35,11 @@ const HomePage = () => (
         <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
           Take the first step towards your dream life abroad. Get a free assessment from our certified immigration experts today.
         </p>
-        <button className="bg-[var(--accent-blue)] hover:bg-blue-600 text-white px-12 py-5 rounded-lg font-bold text-xl transition-all shadow-xl shadow-blue-500/40 transform hover:-translate-y-1">
-          Free Online Assessment
-        </button>
+       <Link to="/contact">
+  <button className="bg-[var(--accent-blue)] hover:bg-blue-600 text-white px-12 py-5 rounded-lg font-bold text-xl transition-all shadow-xl shadow-blue-500/40 transform hover:-translate-y-1">
+    Free Online Assessment
+  </button>
+</Link>
       </div>
     </section>
   </>
@@ -50,11 +53,8 @@ const AboutPage = () => (
 );
 
 const ServicesPage = () => (
-  <div className="pt-20">
-    <div className="container mx-auto px-4 text-center mb-12">
-      <h1 className="text-4xl font-bold text-[var(--primary)] mb-4">Our Services</h1>
-      <p className="text-lg text-gray-600">Comprehensive immigration solutions for you.</p>
-    </div>
+  <div className="pt-10">
+   
     <Services />
   </div>
 );

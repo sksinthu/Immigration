@@ -18,11 +18,11 @@ const Navbar = () => {
                     <div className="flex items-center space-x-6">
                         <div className="flex items-center space-x-2 group cursor-pointer">
                             <Phone size={16} className="text-[var(--accent-blue)] group-hover:text-white transition-colors" />
-                            <span className="group-hover:text-[var(--accent-blue)] transition-colors">+94 123 456 789</span>
+                            <span className="group-hover:text-[var(--accent-blue)] transition-colors">+94 760 131 613</span>
                         </div>
                         <div className="flex items-center space-x-2 group cursor-pointer">
                             <Mail size={16} className="text-[var(--accent-blue)] group-hover:text-white transition-colors" />
-                            <span className="group-hover:text-[var(--accent-blue)] transition-colors">info@immigrationagency.lk</span>
+                            <span className="group-hover:text-[var(--accent-blue)] transition-colors">avmtravels16@gmail.com</span>
                         </div>
                     </div>
                     <div className="flex items-center space-x-4">
