@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --font-sans: 'Inter', sans-serif;
+}
+
+:root {
+  /* Light Mode Colors - Immigration Agency Theme */
+  --primary: #002147;
+  /* Deep Navy Blue */
+  --secondary: #ffffff;
+  --accent: #cc0000;
+  /* Red for buttons/highlights often seen in visa sites, or use the blue from the site if preferred. Let's stick to a safe bright blue or red. The site had 'Free Assessment' which is often red or orange. Let's use a bright blue based on the description 'Lighter Blue/Accent Color'. */
+  --accent-blue: #00aaff;
+  --background: #ffffff;
+  --surface: #f3f4f6;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+}
+
+.dark {
+  /* Dark Mode Colors - Adjusted for consistency */
+  --primary: #1e3a8a;
+  --secondary: #0f172a;
+  --accent: #ef4444;
+  --accent-blue: #3b82f6;
+  --background: #0f172a;
+  --surface: #1e293b;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* 3D Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Animations */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0) translateZ(50px);
+  }
+
+  50% {
+    transform: translateY(-20px) translateZ(50px);
+  }
+}
+
+@keyframes float-delayed {
+
+  0%,
+  100% {
+    transform: translateY(0) translateZ(80px);
+  }
+
+  50% {
+    transform: translateY(-15px) translateZ(80px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 7s ease-in-out infinite 1s;
+}
