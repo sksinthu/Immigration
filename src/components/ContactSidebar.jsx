@@ -29,9 +29,13 @@ const ContactSidebar = () => {
                     <MapPin className="text-[var(--accent-blue)] mt-1 flex-shrink-0" size={20} />
                     <div>
                         <p className="text-gray-600 leading-relaxed" style={{ fontFamily: 'Roboto, sans-serif', fontSize: '16px' }}>
-                            PRE-SCHOOL JUNCTION, KARUMALAIYOOTHU,<br />
-                            VELLAIAMANAL, CHINA BAY,<br />
-                            TRINCOMALEE.
+                            03, Main Street,Saraiyady,<br />
+                            Point Pedro,Jaffna.<br />
+                            
+                             
+
+
+
                         </p>
                     </div>
                 </div>

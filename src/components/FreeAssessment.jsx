@@ -35,7 +35,7 @@ const FreeAssessment = () => {
         email: '',
         dob: '',
         nationality: 'Sri Lanka',
-        destinationCountry: 'United Kingdom',
+        destinationCountry: 'Belarus',
         visaType: 'Visit Visa',
         visaRejection: '',
         comment: '',
@@ -269,11 +269,11 @@ const FreeAssessment = () => {
                                         required
                                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[var(--accent-blue)] focus:border-[var(--accent-blue)] outline-none transition-all text-gray-900 bg-white"
                                     >
-                                        <option value="United Kingdom" className="font-bold">United Kingdom</option>
-                                        <option value="United States">United States</option>
-                                        <option value="Canada">Canada</option>
-                                        <option value="Australia">Australia</option>
-                                        <option value="New Zealand">New Zealand</option>
+                                        <option value="United Kingdom" className="font-bold">Belarus</option>
+                                        <option value="United States">Romania</option>
+                                        <option value="Canada">Moldova</option>
+                                        <option value="Australia">Greece</option>
+                                        {/* <option value="New Zealand">New Zealand</option>
                                         <option value="Germany">Germany</option>
                                         <option value="France">France</option>
                                         <option value="Netherlands">Netherlands</option>
@@ -290,7 +290,8 @@ const FreeAssessment = () => {
                                         <option value="Singapore">Singapore</option>
                                         <option value="Japan">Japan</option>
                                         <option value="South Korea">South Korea</option>
-                                        <option value="United Arab Emirates">United Arab Emirates</option>
+                                        <option value="United Arab Emirates">United Arab Emirates</option>  */}
+ 
                                     </select>
                                 </div>
 
