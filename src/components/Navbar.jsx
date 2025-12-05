@@ -99,7 +99,7 @@ const Navbar = () => {
 
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-[var(--primary)] leading-none">
-                    Travel
+                 AVM   TRAVEL
                   </span>
                   <span className="text-sm font-bold text-[var(--accent-blue)] tracking-widest uppercase leading-none">
                     Pvt(ltd)

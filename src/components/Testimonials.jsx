@@ -1,56 +1,38 @@
 import React from 'react';
 import { MapPin, Quote } from 'lucide-react';
-
 const testimonials = [
-    {
-        name: "Mr. Sathurshan & family",
-        location: "Mullaitivu",
-        image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "The Visa Centre made our dream of moving to Canada a reality. Their guidance was invaluable throughout the entire process."
-    },
-    {
-        name: "Ms. Anjali Perera",
-        location: "Colombo",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "Highly professional and efficient. I received my student visa for the UK much faster than I expected. Thank you!"
-    },
-    {
-        name: "Mr. Kumar & Mrs. Devi",
-        location: "Jaffna",
-        image: "https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "We are so grateful for the support we received for our parent visa application. The team was always there to answer our questions."
-    },
-    {
-        name: "Mr. Fazil Mohamed",
-        location: "Kandy",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "Excellent service! They helped me navigate the complex skilled migration process for Australia with ease."
-    },
-    {
-        name: "Mrs. Silva & family",
-        location: "Galle",
-        image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "Moving to New Zealand was a big decision for our family. The Visa Centre provided expert advice and support every step of the way."
-    },
-    {
-        name: "Mr. Rajan",
-        location: "Trincomalee",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "I highly recommend their services for anyone looking to work abroad. They are trustworthy and reliable."
-    },
-    {
-        name: "Ms. Nimali",
-        location: "Negombo",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "The team at Visa Centre is fantastic. They helped me with my visitor visa to the USA, and the process was smooth and hassle-free."
-    },
-    {
-        name: "Mr. & Mrs. Fernando",
-        location: "Kurunegala",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        quote: "Professional, knowledgeable, and friendly. We couldn't have asked for better partners in our migration journey."
-    }
+    { image: "/images/IMG-20251205-WA0011.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0012.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0013.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0014.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0015.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0016.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0017.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0018.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0020.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0022.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0023.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0024.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0025.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0026.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0027.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0028.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0029.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0030.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0031.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0032.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0033.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0034.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0035.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0036.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0037.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0038.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0039.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0040.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0041.jpg", name: "", location: "", quote: "" },
+    { image: "/images/IMG-20251205-WA0042.jpg", name: "", location: "", quote: "" }
 ];
+
 
 const Testimonials = () => {
     return (
@@ -72,7 +54,7 @@ const Testimonials = () => {
                                 <img
                                     src={client.image}
                                     alt={client.name}
-                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                                     <p className="text-white text-sm italic line-clamp-3">"{client.quote}"</p>
