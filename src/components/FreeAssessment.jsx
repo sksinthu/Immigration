@@ -273,6 +273,8 @@ const FreeAssessment = () => {
                                         <option value="United States">Romania</option>
                                         <option value="Canada">Moldova</option>
                                         <option value="Australia">Greece</option>
+                                        <option value="Australia">Serbia</option>
+
                                         {/* <option value="New Zealand">New Zealand</option>
                                         <option value="Germany">Germany</option>
                                         <option value="France">France</option>

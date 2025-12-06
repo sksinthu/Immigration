@@ -63,21 +63,21 @@ const ContactSidebar = () => {
                     Hotlines:
                 </h5>
                 <div className="space-y-2">
-                    <a
+                    {/* <a
                         href="tel:+94773919569"
                         className="text-gray-600 hover:text-[var(--accent-blue)] transition-colors block"
                         style={{ fontFamily: 'Roboto, sans-serif', fontSize: '17px' }}
                     >
                         +94 760 131 613
-                    </a>
-                    {/* <a
+                    </a> */}
+                    <a
                         href="tel:+94750303990"
                         className="text-gray-600 hover:text-[var(--accent-blue)] transition-colors block"
                         style={{ fontFamily: 'Roboto, sans-serif', fontSize: '17px' }}
                     >
-                        +94 750 303 990
+                        +94 773 003 232
                     </a>
-                    <a
+                    {/* <a
                         href="tel:+94267629619"
                         className="text-gray-600 hover:text-[var(--accent-blue)] transition-colors block"
                         style={{ fontFamily: 'Roboto, sans-serif', fontSize: '17px' }}

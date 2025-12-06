@@ -177,8 +177,9 @@ const Footer = () => {
                   />
                 </div>
                 <span className="text-gray-400 group-hover:text-white transition-colors">
-                  +94 760 131 613
+                    +94 773 003 232
                 </span>
+                
               </li>
               <li className="flex items-center gap-4 group">
                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--accent-blue)] transition-colors">

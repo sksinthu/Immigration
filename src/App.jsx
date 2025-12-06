@@ -123,7 +123,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
-        <FloatingButtons whatsappNumber="+94760131613" />
+        <FloatingButtons whatsappNumber="+94773003232" />
       </div>
     </Router>
   );
